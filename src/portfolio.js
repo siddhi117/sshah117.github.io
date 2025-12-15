@@ -20,13 +20,13 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Siddhi Shah",
+  title: "Hey, I'm Siddhi",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Results-driven Software Developer with 5+ years of experience building secure, scalable applications and microservices using C#, Java, .NET, and AWS.Experienced Software Developer skilled in full-stack development, system design, and cloud-native architectures. Motivated to expand expertise in AI while contributing to innovative and high-performance engineering teams."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1JBWxumixUP97ttTeszthKMa3tA5zJQ-O/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -34,12 +34,9 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  linkedin: "https://www.linkedin.com/in/sshah94/",
+  gmail: "siddhi117@gmail.com",
+    facebook: "https://www.facebook.com/siddhi.shah.336",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +46,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+    subTitle: "A FULL-STACK DEVELOPER FUELED BY CURIOSITY AND ALWAYS EAGER TO EXPERIMENT WITH EMERGING TECH.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly interactive Front end / User Interfaces for your web applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+      emoji("⚡ Build microservices for a backend web and applications."),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Architect and manage scalable cloud infrastructure utilizing services like AWS Lambda, Docker, and Kubernetes for high availability."
     )
   ],
 
@@ -64,6 +61,10 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+    {
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
+    },
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -73,8 +74,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
       skillName: "JavaScript",
@@ -89,10 +90,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
@@ -103,10 +100,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
     },
     {
       skillName: "python",
@@ -126,23 +119,18 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
+      schoolName: "Kent State Universit",
+      logo: require("./assets/images/KSU.png"),
       subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      duration: "January 2017 - Augusr 2018",
+      desc: "Related Coursework: Big Data Analytics, Internet of Things, Parallel and Distributed Computing, Cloud Application Design, Multicore Computing, Advanced Database System Design, Software Testing Methodologies, Parallel and Distributed Algorithms, Software Engineering Methodologies, Software Systems Requirements and Interaction Design",
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Gujarat Technological University",
+      logo: require("./assets/images/gtu_1.png"),
+      subHeader: "Bachelor of Engineering in Computer Engineering",
+      duration: "August 2011 - June 2015",
+      desc: "Related Coursework:  Computer Architecture, Operating Systems, Database Management Systems (DBMS), Data Structures and Algorithms (DSA), Computer Networks, Data and File Structure, Web Application Development, Advance Java Technology, Theory Of Computation, Information Security",
     }
   ]
 };
@@ -174,29 +162,34 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software Developer II",
+      company: "United Wholesale Mortgage",
+      companylogo: require("./assets/images/UWM.jfif"),
+      date: "July 2023 – Nov 2025",
+          desc: "At UWM, I develop and optimize microservices and performance-monitoring solutions that improve scalability, reliability, and system throughput. My work focuses on C#, .NET Core, Kafka, and Azure-based integrations, along with enhancing application security and automation.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Tech Stack: C#, .NET Core, Kafka, Azure CosmosDB, Redis, Dynatrace, Docker, xUnit, React, AWS"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Developer",
+      company: "Hyland Software Inc.",
+      companylogo: require("./assets/images/hylandsite.png"),
+      date: "August 2022 – May 2023",
+        desc: "At Hyland, I built and enhanced RESTful APIs and authentication frameworks for the Hyland Experience Platform (HxP), improving access control and CI/CD reliability. My contributions streamlined cross-service communication and strengthened cloud-based workflows.",
+      descBullets: [
+            "Tech Stack: C#, .NET Core, PostgreSQL, AWS SQS/SNS, Git, Bitbucket, CI/CD Pipelines"
+      ]  
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Engineer",
+      company: "Tata Consultancy Services Limited",
+      companylogo: require("./assets/images/tcs_2.webp"),
+      date: "July 2019 – July 2022",
+        desc: "At TCS, I worked as a Full Stack Developer, primarily focusing on backend development using Java and Spring Boot to build scalable enterprise applications for the aviation domain. I contributed to digitizing legacy paper-based workflows into web-based solutions. For another project I have developed an AWS QuickSight dashboard to monitor global employee compliance (e.g., YubiKey login adoption), improving transparency and reducing reporting costs by 50%.",
+      descBullets: [
+          "Tech Stack: Java, Spring Boot, Spring MVC, REST APIs, Angular, HTML, CSS, JavaScript, PostgreSQL, AWS QuickSight, JUnit, Git, Rally (Agile/Scrum)"
+      ]
     }
   ]
 };
@@ -206,7 +199,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -248,54 +241,45 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "AWS Certified Cloud Practitioner",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "AWS Certified Cloud Practitioner with hands-on knowledge of core AWS services and cloud fundamentals.",
+      image: require("./assets/images/cloud_prac.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Certificate Credential",
+          url: "https://www.credly.com/badges/a1c8c52e-615f-4139-acd6-ba2ab8ea0b7f/linked_in_profile"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "AWS Certified Developer Associate",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "AWS Certified Developer – Associate with expertise in building, deploying, and debugging cloud-native applications on AWS.",
+      image: require("./assets/images/dev_assoc.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certificate Credential",
+          url: "https://www.credly.com/badges/a308aab2-33cf-4a13-b259-ae3319d0042e/linked_in_profile"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "AI Appreciate Badge - AI FROM ALL",
+        subtitle: "Earned the AI Appreciate Badge – AI for All, demonstrating foundational understanding of AI concepts, ethics, and real-world applications.",
+      image: require("./assets/images/Appreciate_badge.png"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+            name: "Certificate Credential",
+            url: "https://ai-for-all.in/#/badge?id=U2FsdGVkX19evnpgaXJlTRtjMDlgDGdsZ9wRP1p1L2u3SCviMe1Q2u3A4l"
         }
       ]
     }
@@ -324,13 +308,13 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
+  title: "LET'S CHAT",
   subtitle: emoji(
     "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
   ),
@@ -343,7 +327,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +340,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -372,8 +356,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+1(330)475-6818",
+  email_address: "siddhi117@gmail.com"
 };
 
 // Twitter Section
